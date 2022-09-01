@@ -5,9 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d45e09-b684-4dc6-8ff8-a67c97fefb6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/assignment1/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment1files/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1files/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment1files/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment1files/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/.idea/single-price-grid-component-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/.idea/single-price-grid-component-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/README-template.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/README-template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/design/desktop-design.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/design/desktop-design.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/design/desktop-preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/design/desktop-preview.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/design/mobile-design.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/design/mobile-design.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/images/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/images/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/style-guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/style-guide.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment1files/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assignment1files/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/README-template.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/README-template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/design/active-states.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/design/active-states.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/design/desktop-design.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/design/desktop-design.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/design/desktop-preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/design/desktop-preview.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/design/mobile-design.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/design/mobile-design.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/images/bg-pattern-desktop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/images/bg-pattern-desktop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/images/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/images/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/images/hero-desktop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/images/hero-desktop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/images/hero-mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/images/hero-mobile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/images/icon-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/images/icon-arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/images/icon-error.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/images/icon-error.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/style-guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/style-guide.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/practice1/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +56,7 @@
         <option value="package.json" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,6 +74,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -52,6 +90,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\april\WebLang\Project\dist" />
       <recent name="C:\Users\april\WebLang\Project\practice1" />
       <recent name="C:\Users\april\WebLang\Project\practice1\styles" />
     </key>
@@ -69,7 +108,9 @@
       <workItem from="1661361676435" duration="387000" />
       <workItem from="1661381046661" duration="110000" />
       <workItem from="1661381181502" duration="13995000" />
-      <workItem from="1661827923555" duration="5429000" />
+      <workItem from="1661827923555" duration="6183000" />
+      <workItem from="1661887520751" duration="6936000" />
+      <workItem from="1662052602990" duration="1510000" />
     </task>
     <servers />
   </component>
