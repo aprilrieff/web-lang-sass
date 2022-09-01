@@ -13,7 +13,7 @@ body {
 header {
   background-color: #333;
   color: #f4f4f4; }
-  header header h1 {
+header h1 {
     text-align: center; }
 
 .section {
@@ -23,13 +23,21 @@ header {
   .section-a {
     background-color: steelblue;
     color: #f4f4f4; }
-    .section-a a {
-      color: #f4f4f4; }
-      .section-a a:hover {
-        color: skyblue; }
   .section-b {
     background-color: skyblue; }
-    .section-b a {
-      color: #333; }
-      .section-b a a:hover {
-        color: steelblue; }
+
+.btn {
+  display: inline-block;
+  padding: 12px 32px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem; }
+
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333 !important; }
+
+.btn-dark {
+  background-color: #333;
+  color: #f4f4f4 !important; }

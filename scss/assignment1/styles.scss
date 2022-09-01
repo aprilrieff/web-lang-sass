@@ -1,13 +1,10 @@
-$teal: hsl(228, 45%, 44%);
-$green: hsl(71, 73%, 54%);
-$light-teal: hsl(179, 62%, 47%);
-$gray: hsl(218, 22%, 67%);
-$light-gray: hsl(204, 43%, 93%);
+@import 'variables';
+@import 'functions';
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: $teal;
+  color: $dark-color;
 }
 
 .container {
@@ -30,7 +27,7 @@ body {
   background-color: #FFF;
 
   h1 {
-    color: $light-teal;
+    color: $primary-color;
   }
 
   h2{
@@ -43,61 +40,65 @@ body {
 }
 
 #monthly{
-  background-color: hsl(179, 62%, 43%);
+  background-color: $dark-color;
   padding: 2rem;
   margin: 0 0 0px;
   float: left;
   line-height: 20px;
 
   h2{
-    color: #FFF;
+    color: set-text-color($dark-color);
   }
 
   span{
     font-size: 16px;
-    color: hsl(218, 22%, 67%);
+    color: set-text-color($dark-color);
   }
 
   h4{
-    color: white;
+    color: set-text-color($dark-color);
   }
 
   button{
     width: 311px;
-    background-color: hsl(71, 73%, 54%);
+    background-color: $secondary-color;
     font-family: 'Karla', sans-serif;
     border: none;
     border-radius: 4px;
     height:40px;
     text-align: center;
     padding: 10px;
-    color: #FFFFFF;
+    color: set-text-color($secondary-color);
     font-weight: bold;
+
+    :hover{
+      background-color: darken($secondary-color, 10%);
+    }
   }
 }
 
 #why{
-  background-color: hsl(179, 62%, 47%);
+  background-color: $primary-color;
   padding: 2rem;
   margin: 0px;
   float: left;
   width: 311px;
 
   h2{
-    color: #FFFFFF;
+    color: set-text-color($primary-color);
     height: 13px;
   }
 
   p{
     line-height: 20px;
-    color: hsl(204, 43%, 93%);
+    color: set-text-color($primary-color);
   }
 }
 
 p{
   font-size: 12px;
   font-family: 'Karla', sans-serif;
-  color: #FFFFFF;
+  color: set-text-color($primary-color);
 }
 
 @media (min-width: 900px){
