@@ -1,7 +1,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: #3e52a3; }
+  color: #222222; }
 
 .container {
   width: 375px;
@@ -27,18 +27,18 @@ body {
       line-height: 30px; }
 
 #monthly {
-  background-color: #3e52a3;
+  background-color: #222222;
   padding: 2rem;
   margin: 0 0 0px;
   float: left;
   line-height: 20px; }
   #monthly h2 {
-    color: set-text-color(#3e52a3); }
+    color: set-text-color(#222222); }
   #monthly span {
     font-size: 16px;
-    color: set-text-color(#3e52a3); }
+    color: set-text-color(#222222); }
   #monthly h4 {
-    color: set-text-color(#3e52a3); }
+    color: set-text-color(#222222); }
   #monthly button {
     width: 311px;
     background-color: #c0df34;

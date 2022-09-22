@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d45e09-b684-4dc6-8ff8-a67c97fefb6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/assignment1/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/assignment1/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/practice1/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/practice1/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dist/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/assignment1/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/assignment1/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/practice1/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/practice1/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/resProject/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/assignment1/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/assignment1/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/resProject/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/resProject/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/resProject/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/resProject/resMain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/resMain.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +61,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\april\WebLang\Project\dist\assets" />
+      <recent name="C:\Users\april\WebLang\Project\scss\resProject" />
+      <recent name="C:\Users\april\WebLang\Project\dist\resProject\img" />
+      <recent name="C:\Users\april\WebLang\Project\dist\assignment1files" />
       <recent name="C:\Users\april\WebLang\Project\dist\practice1" />
-      <recent name="C:\Users\april\WebLang\Project\dist\css\practice1" />
-      <recent name="C:\Users\april\WebLang\Project\scss\practice1" />
-      <recent name="C:\Users\april\WebLang\Project\dist" />
-      <recent name="C:\Users\april\WebLang\Project\practice1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +83,12 @@
       <workItem from="1661381181502" duration="13995000" />
       <workItem from="1661827923555" duration="6183000" />
       <workItem from="1661887520751" duration="6936000" />
-      <workItem from="1662052602990" duration="6607000" />
+      <workItem from="1662052602990" duration="6989000" />
+      <workItem from="1662498459095" duration="1317000" />
+      <workItem from="1662665510168" duration="5676000" />
+      <workItem from="1663096642423" duration="6780000" />
+      <workItem from="1663271952176" duration="5044000" />
+      <workItem from="1663702267506" duration="5703000" />
     </task>
     <servers />
   </component>

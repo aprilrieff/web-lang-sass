@@ -1,0 +1,151 @@
+@import "variables";
+@import "utilities";
+@import "functions";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  font-family: 'Dosis', sans-serif;
+}
+
+body {
+
+}
+
+a {
+  text-decoration: none;
+}
+
+h2, h3, h4 {
+  text-transform: uppercase;
+}
+
+img {
+}
+
+ul {
+  list-style: none;
+}
+
+#header {
+  &-home {
+    background: url("../../resProject/assets/items/banner.jpg") $dark-color no-repeat center bottom / cover;
+    height: 100vh;
+    color: $dark-color;
+  }
+
+  &-content {
+    text-align: center;
+    padding-top: 2em;
+
+    h1 {
+      font-size: 3.5em;
+      line-height: 1.5;
+
+      .txt {
+        border-right: 3px solid $dark-color;
+        //-webkit-animation: borderBlink 1s step-end infinite;
+        //animation:
+      }
+
+    }
+  }
+}
+
+#logo {
+  height: 120px;
+}
+
+.container {
+  max-width: $website-width;
+  padding: 0 1.5rem;
+  //background-color: yellow;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#main-nav {
+  display: flex; //Place logo and nav bar side by side
+  justify-content: space-between;
+
+  ul {
+    display: flex; //Place nav items side by side
+    padding-top: 2.5rem;
+
+    li {
+    }
+
+    a {
+      color: $dark-color;
+      text-transform: uppercase;
+      padding: .75rem 1.5rem;
+      border-bottom: 3px transparent solid;
+      transition: border-color 0.5s;
+
+      &:hover {
+        border-color: $dark-color;
+      }
+
+      &.current {
+        border-color: $medium-color;
+      }
+    }
+  }
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  @extend %btn-shared;
+  margin: 1rem;
+
+  &-main {
+    background-color: $medium-color;
+    color: $light-color;
+
+    &:hover {
+      background-color: lighten($medium-color, 10%);
+    }
+  }
+
+  &-light {
+    background-color: $light-color;
+    color: $dark-color;
+
+    &:hover {
+      background-color: darken($light-color, 10%);
+    }
+  }
+
+  &-dark {
+    background-color: $dark-color;
+    color: $light-color;
+
+    &:hover {
+      background-color: lighten($dark-color, 10%);
+    }
+  }
+}
+
+#home {
+  &-a{
+    .specializations {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-gap: 1rem;
+    }
+  }
+  &-b{
+
+  }
+  &-c {
+
+  }
+  &-d {
+
+  }
+}
+
