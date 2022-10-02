@@ -20,7 +20,7 @@
   display: inline-block;
   margin-top: 1rem;
 
-  @include transition(background-color 0.5s);
+  //@include transition(background-color 0.5s);
 
 }
 
@@ -51,5 +51,30 @@
   }
   &-4{
     margin: 4rem 0;
+  }
+}
+
+.text-center{
+  text-align: center;
+}
+
+.bottom-line {
+  border-bottom: 3px solid $medium-color;
+  width: 25%;
+  margin: 1rem auto 2rem;
+}
+
+.bg{
+  &-medium{
+    background-color: $medium-color;
+    color: set-text-color($medium-color);
+  }
+  &-dark{
+    background-color: $dark-color;
+    color: set-text-color($dark-color);
+  }
+  &-light{
+    background-color: $light-color;
+    color: set-text-color($light-color);
   }
 }

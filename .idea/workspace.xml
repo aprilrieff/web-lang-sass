@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d45e09-b684-4dc6-8ff8-a67c97fefb6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/resProject/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dist/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/assignment1/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/assignment1/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/resProject/resMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/resProject/resMain.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/resProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/resProject/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/assignment1/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/assignment1/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/resProject/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_functions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/resProject/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/resProject/resMain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/resMain.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,29 +40,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/april/Java2/single-price-grid-component-master&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/april/WebLang/Project",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\april\WebLang\Project\dist\resProject" />
       <recent name="C:\Users\april\WebLang\Project\dist\assets" />
       <recent name="C:\Users\april\WebLang\Project\scss\resProject" />
       <recent name="C:\Users\april\WebLang\Project\dist\resProject\img" />
       <recent name="C:\Users\april\WebLang\Project\dist\assignment1files" />
-      <recent name="C:\Users\april\WebLang\Project\dist\practice1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -89,6 +86,11 @@
       <workItem from="1663096642423" duration="6780000" />
       <workItem from="1663271952176" duration="5044000" />
       <workItem from="1663702267506" duration="5703000" />
+      <workItem from="1663875386285" duration="2870000" />
+      <workItem from="1663878472856" duration="3684000" />
+      <workItem from="1664213284106" duration="592000" />
+      <workItem from="1664307227204" duration="6754000" />
+      <workItem from="1664561636187" duration="170000" />
     </task>
     <servers />
   </component>
