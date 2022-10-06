@@ -5,49 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d45e09-b684-4dc6-8ff8-a67c97fefb6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/resProject/_item_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/logo-ar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/.idea/single-price-grid-component-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/README-template.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/design/desktop-design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/design/desktop-preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/design/mobile-design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/images/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/style-guide.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assignment1files/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/assignment1/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/practice1/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/resProject/resMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/resProject/resMain.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/README-template.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/design/active-states.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/design/desktop-design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/design/desktop-preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/design/mobile-design.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/images/bg-pattern-desktop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/images/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/images/hero-desktop.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/images/hero-mobile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/images/icon-arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/images/icon-error.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/images/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/style-guide.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/practice1/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/resProject/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/resProject/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/resProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/resProject/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/resMain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/resMain.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resProject/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/resProject/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +91,7 @@
       <workItem from="1664903755876" duration="3569000" />
       <workItem from="1664913521258" duration="4790000" />
       <workItem from="1665063472242" duration="5190000" />
-      <workItem from="1665084497892" duration="2885000" />
+      <workItem from="1665084497892" duration="3269000" />
     </task>
     <servers />
   </component>
