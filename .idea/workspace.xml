@@ -5,11 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d45e09-b684-4dc6-8ff8-a67c97fefb6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/resProject/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/resProject/_item_grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/logo-ar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/.idea/single-price-grid-component-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/README-template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/design/desktop-design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/design/desktop-preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/design/mobile-design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/images/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/style-guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assignment1files/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/assignment1/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/practice1/main.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/resProject/resMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/resProject/resMain.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/README-template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/design/active-states.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/design/desktop-design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/design/desktop-preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/design/mobile-design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/images/bg-pattern-desktop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/images/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/images/hero-desktop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/images/hero-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/images/icon-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/images/icon-error.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/style-guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/practice1/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resProject/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/resProject/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/resProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/resProject/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_functions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/resProject/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_utilities.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/resProject/resMain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/resMain.scss" afterDir="false" />
     </list>
@@ -40,22 +76,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/april/WebLang/Project",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/april/WebLang/Project&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\april\WebLang\Project\dist\resProject" />
@@ -91,6 +127,12 @@
       <workItem from="1664213284106" duration="592000" />
       <workItem from="1664307227204" duration="6754000" />
       <workItem from="1664561636187" duration="170000" />
+      <workItem from="1664753339237" duration="313000" />
+      <workItem from="1664891229216" duration="885000" />
+      <workItem from="1664903755876" duration="3569000" />
+      <workItem from="1664913521258" duration="4790000" />
+      <workItem from="1665063472242" duration="5190000" />
+      <workItem from="1665084497892" duration="2885000" />
     </task>
     <servers />
   </component>

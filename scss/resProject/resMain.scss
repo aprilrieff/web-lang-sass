@@ -1,71 +1,71 @@
 @import "variables";
 @import "utilities";
 @import "functions";
+@import "item_grid";
 
 * {
   margin: 0px;
   padding: 0px;
   max-width: 100%;
-  font-family: 'Dosis', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.5px;
 }
 
 a {
   text-decoration: none;
+  color: $medium-color;
 }
 
 h2, h3, h4 {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .section-title{
   font-size: 2.5rem;
 }
 
-img {
+#logo{
+  height: 70px;
 }
 
 #header {
   &-home {
-    background: url("../resProject/assets/items/banner.jpg") $light-color no-repeat center bottom / cover;
     height: 70vh;
     color: $dark-color;
+    background: url(../dist/resProject/img/banner.jpg) no-repeat center bottom / cover;
   }
 
   &-content {
     text-align: center;
-    padding-top: 2em;
+    padding-top: 4em;
 
     h1 {
-      font-size: 3.5em;
-      line-height: 1.5;
+      font-size: 4rem;
+      line-height: 1.3;
 
       .txt {
         border-right: 3px solid $dark-color;
-        //-webkit-animation: borderBlink 1s step-end infinite;
-        //animation:
+        -webkit-animation: borderBlink 1s step-end infinite;
+        animation: borderBlink 1s step-end infinite;
       }
     }
   }
 
   &-inner{
-    height:7rem;
-    color: $dark-color;
-    height: 120px;
+    height: 6rem;
+    color: $light-color;
     background: rgb(2,0,36);
     background: linear-gradient(63deg, rgba(2,0,36,1) 0%, rgba(213,0,255,1) 100%);
-
   }
-
 }
 
 .container {
-  max-width: $website-width;
+  max-width: 1080px;
   padding: 0 1.5rem;
-  //background-color: yellow;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -73,19 +73,17 @@ img {
 #main-nav {
   display: flex; //Place logo and nav bar side by side
   justify-content: space-between;
+  padding-top: 1rem;
 
   ul {
     display: flex; //Place nav items side by side
-    padding-top: 2.5rem;
+    padding-top: 1rem;
     list-style: none;
-
-    li {
-    }
 
     a {
       color: $dark-color;
       text-transform: uppercase;
-      padding: .75rem 1.5rem;
+      padding: 1rem 1.5rem;
       border-bottom: 3px transparent solid;
       transition: border-color 0.5s;
 
@@ -103,6 +101,16 @@ img {
 .lead {
   font-size: 20px;
 }
+
+.progress {
+  height: 20px;
+  background-color: $light-color;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+    .div {
+  height: 20px;
+  background-color: $medium-color; }}
 
 .btn {
   @extend %btn-shared;
@@ -156,7 +164,7 @@ img {
       display:grid;
       grid-template-columns: repeat(3, 1fr);
 
-      ul{
+      div{
         padding: 3rem;
 
         &:nth-child(odd){
@@ -167,7 +175,7 @@ img {
         }
       }
       li{
-
+          line-height: 2;
         .stats-title{
           font-size: 1.5rem;
         }
@@ -177,14 +185,14 @@ img {
           font-weight: bold;
         }
       }
-
     }
   }
   &-c {
     .process {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-gap: 1rem;
+      grid-gap: 1.5rem;
+      text-align: center;
     }
 
     &-icon{
@@ -192,22 +200,15 @@ img {
       background-color: $dark-color;
       color: $light-color;
       padding: 2rem;
-      width: 130px;
-      height: 130px;
-      line-height: 70px;
+      width: 150px;
+      height: 150px;
+      line-height: 80px;
       text-align:center;
       position: relative;
       transition: background-color .5s;
 
       &:hover{
         background-color: $medium-color;
-        width: 150px;
-        height: 150px;
-        line-height: 80px;
-
-        .process-step{
-          background-color: $light-color;
-          color: $dark-color;
         }
       }
     }
@@ -228,9 +229,9 @@ img {
       transition: background-color .5s;
     }
   }
-}
 
-footer{
+
+.footer{
   background-color: $dark-color;
   text-color: $light-color;
 
@@ -263,7 +264,7 @@ footer{
 
   }
   &-info{
-    margin-bottom: 2rem;
+    margin-top: 2rem;
     display: grid;
     grid-template-areas:
       "image bio bio"
@@ -280,6 +281,7 @@ footer{
       border-left: 5px solid $medium-color;
       padding: 1rem;
       text-align: left;
+      margin-bottom: 2rem;
     }
   }
   &-1 {
@@ -290,5 +292,39 @@ footer{
   }
   &-3 {
     grid-area: about3;
+  }
+
+  &-logos{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &-d {
+    .testimonials{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 0.5rem;
+      margin-top: 1.5rem;
+
+      .testimonial{
+        ul{
+          list-style: none;
+          margin: 1rem 0;
+          display: flex;
+          justify-content: center;
+        }
+        p{
+          border: 1px solid $medium-color;
+          border-radius: 10px;
+          padding: 1rem;
+        }
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-right: 1rem;
+        }
+      }
+    }
   }
 }

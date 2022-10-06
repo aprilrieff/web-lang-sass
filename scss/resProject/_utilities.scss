@@ -13,14 +13,17 @@
 }
 
 %btn-shared{
-  padding: 0.8rem 0.5rem;
+  padding: 0.8rem 2rem;
   cursor: pointer;
   border: none;
   border-radius: 5px;
   display: inline-block;
   margin-top: 1rem;
-
-  //@include transition(background-color 0.5s);
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 
 }
 
@@ -78,3 +81,19 @@
     color: set-text-color($light-color);
   }
 }
+
+.lead{
+  font-size: 125%;
+}
+
+@-webkit-keyframes borderBlink {
+  from, to {
+    border-color: transparent; }
+  50% {
+    border-color: black; } }
+
+@keyframes borderBlink {
+  from, to {
+    border-color: transparent; }
+  50% {
+    border-color: black; } }
