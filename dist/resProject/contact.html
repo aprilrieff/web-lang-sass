@@ -1,0 +1,92 @@
+<meta charset="UTF-8">
+<meta name="viewport">
+<title>Contact | April Rieff</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+      integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+      crossorigin=""/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="../css/resProject/resMain.css">
+</head>
+<body>
+<header id="header-inner">
+    <div class="container">
+        <nav id="main-nav">
+            <img src="img/logo-ar.png" alt="April Rieff" id="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="current">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="contact-a" class="text-center py-3">
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Here's how you can reach me</p>
+        <form action="">
+            <div class="text-fields">
+                <input type="text" class="text-input name-input" placeholder="Your Name">
+                <input type="text" class="text-input subject-input" placeholder="Your Subject">
+                <input type="text" class="text-input email-input" placeholder="Your Email" required>
+                <input type="text" class="text-input phone-input" placeholder="Your Phone Number">
+                <textarea name="" id="" class="text-input message-input" placeholder="Enter your message"></textarea>
+                <button class="btn-shared btn-medium" type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+</section>
+<section id="contact-b" class="py-3 bg-dark">
+    <div class="container">
+        <div class="contact-info">
+            <div><i class="fa-solid fa-envelope fa-2x"></i>
+                <h3>Email</h3>
+                <p><a href="mailto:april.rieff@gmail.com">april.rieff@gmail.com</a></p>
+            </div>
+            <div><i class="fa-solid fa-phone fa-2x"></i>
+                <h3>Phone</h3>
+                <p><a href="tel:319-431-0004">(319)431-0004</a></p>
+            </div>
+            <div><i class="fa-solid fa-address-card fa-2x"></i>
+                <h3>Address</h3>
+                <p><a href="https://goo.gl/maps/18KuaRzzvmTNrjzdA" target="_blank">190 Highland Avenue Fairfax, IA
+                    52228</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact-c" class="py-3 text-center bg-medium">
+    <div class="container my-4">
+        <div id="map"></div>
+    </div>
+</section>
+
+<footer class="footer py-4">
+    <div class="container footer-content">
+        <p>Copyright &copy; 2021 -
+            <script>document.write(new Date().getFullYear());</script>
+            April Rieff. All rights reserved.
+        </p>
+    </div>
+    <div class="social">
+        <a href="https://twitter.com/aprilrieff" target="_blank"><i class="fa fa-brands fa-twitter"></i></a>
+        <a href="https://linkedin.com/aprilrieff" target="_blank"><i class="fa fa-brands fa-linkedin"></i></a>
+        <a href="https://instagram.com/aprilrieff" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
+    </div>
+</footer>
+<script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+        crossorigin=""></script>
+<script src="js/leaflet.js">
+
+</script>
+</body>
+</html>

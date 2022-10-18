@@ -1,7 +1,7 @@
 @import "variables";
 
 @function set-text-color($bg-color){
-  @if(lightness($bg-color < 50)){
+  @if(lightness($bg-color) < 50){
     @return $dark-color;
   } @else {
     @return $light-color;

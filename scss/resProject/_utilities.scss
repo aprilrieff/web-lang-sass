@@ -1,18 +1,20 @@
-*{
-  margin:0px;
-  padding:0px;
+@import "functions";
+
+* {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   max-width: 100%;
 }
 
-.container{
+.container {
   max-width: $website-width;
   padding: 0 1.5rem;
-  margin:0 auto;
-  overflow:hidden;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-%btn-shared{
+%btn-shared {
   padding: 0.8rem 2rem;
   cursor: pointer;
   border: none;
@@ -31,13 +33,16 @@
   &-1 {
     padding: 1rem 0;
   }
+
   &-2 {
     padding: 2rem 0;
   }
+
   &-3 {
     padding: 3rem 0;
   }
-  &-4{
+
+  &-4 {
     padding: 4rem 0;
   }
 }
@@ -46,18 +51,21 @@
   &-1 {
     margin: 1rem 0;
   }
+
   &-2 {
     margin: 2rem 0;
   }
+
   &-3 {
     margin: 3rem 0;
   }
-  &-4{
+
+  &-4 {
     margin: 4rem 0;
   }
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
@@ -67,33 +75,67 @@
   margin: 1rem auto 2rem;
 }
 
-.bg{
-  &-medium{
+.bg {
+  &-medium {
     background-color: $medium-color;
     color: set-text-color($medium-color);
   }
-  &-dark{
+
+  &-dark {
     background-color: $dark-color;
     color: set-text-color($dark-color);
   }
-  &-light{
+
+  &-light {
     background-color: $light-color;
     color: set-text-color($light-color);
   }
 }
 
-.lead{
+.lead {
   font-size: 125%;
+  margin-bottom: 1rem;
 }
 
 @-webkit-keyframes borderBlink {
   from, to {
-    border-color: transparent; }
+    border-color: transparent;
+  }
   50% {
-    border-color: black; } }
+    border-color: black;
+  }
+}
 
 @keyframes borderBlink {
   from, to {
-    border-color: transparent; }
+    border-color: transparent;
+  }
   50% {
-    border-color: black; } }
+    border-color: black;
+  }
+}
+
+.btn {
+  &-medium {
+    background-color: $medium-color;
+    color: set-text-color($medium-color);
+  }
+
+  &-dark {
+    background-color: $dark-color;
+    color: set-text-color($dark-color);
+  }
+
+  &-light {
+    background-color: $light-color;
+    color: set-text-color($light-color);
+  }
+}
+
+#map {
+  height: 400px;
+}
+
+.leaflet-popup-content-wrapper{
+
+}
