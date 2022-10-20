@@ -5,25 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d45e09-b684-4dc6-8ff8-a67c97fefb6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/css/resProject/resMain.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_item_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/resMain.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/assignment1/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/assignment1/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/practice1/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/practice1/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/practice1/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/_item_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/_media.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/_utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/resMain.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/resProject/resMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/resMain.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/resMain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resMain.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +62,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\april\WebLang\Project\dist\css" />
       <recent name="C:\Users\april\WebLang\Project\dist\resProject" />
       <recent name="C:\Users\april\WebLang\Project\dist\assets" />
       <recent name="C:\Users\april\WebLang\Project\scss\resProject" />
       <recent name="C:\Users\april\WebLang\Project\dist\resProject\img" />
-      <recent name="C:\Users\april\WebLang\Project\dist\assignment1files" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -116,7 +105,7 @@
       <workItem from="1666120060044" duration="17000" />
       <workItem from="1666122322969" duration="5930000" />
       <workItem from="1666230719628" duration="611000" />
-      <workItem from="1666294390667" duration="6360000" />
+      <workItem from="1666294390667" duration="6892000" />
     </task>
     <servers />
   </component>
