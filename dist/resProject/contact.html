@@ -1,16 +1,19 @@
-<meta charset="UTF-8">
-<meta name="viewport">
-<title>Contact | April Rieff</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
-      integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
-      crossorigin=""/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous" referrerpolicy="no-referrer">
-<link rel="stylesheet" href="../css/resProject/resMain.css">
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | April Rieff</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+          integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+          crossorigin=""/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../css/resProject/resMain.css">
 </head>
 <body>
 <header id="header-inner">
@@ -32,13 +35,14 @@
         <h2 class="section-title">Contact Me</h2>
         <div class="bottom-line"></div>
         <p class="lead">Here's how you can reach me</p>
-        <form action="">
+        <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <div class="text-fields">
-                <input type="text" class="text-input name-input" placeholder="Your Name">
-                <input type="text" class="text-input subject-input" placeholder="Your Subject">
-                <input type="text" class="text-input email-input" placeholder="Your Email" required>
-                <input type="text" class="text-input phone-input" placeholder="Your Phone Number">
-                <textarea name="" id="" class="text-input message-input" placeholder="Enter your message"></textarea>
+                <input name="name" type="text" class="text-input name-input" placeholder="Your Name">
+                <input name="subject" type="text" class="text-input subject-input" placeholder="Your Subject">
+                <input name="email" type="text" class="text-input email-input" placeholder="Your Email" required>
+                <input name="phone" type="text" class="text-input phone-input" placeholder="Your Phone Number">
+                <textarea name="message" id="" class="text-input message-input" placeholder="Enter your message"></textarea>
+                <div data-netlify-recaptcha="true"></div>
                 <button class="btn-shared btn-medium" type="submit">Send</button>
             </div>
         </form>
@@ -75,11 +79,11 @@
             <script>document.write(new Date().getFullYear());</script>
             April Rieff. All rights reserved.
         </p>
-    </div>
-    <div class="social">
-        <a href="https://twitter.com/aprilrieff" target="_blank"><i class="fa fa-brands fa-twitter"></i></a>
-        <a href="https://linkedin.com/aprilrieff" target="_blank"><i class="fa fa-brands fa-linkedin"></i></a>
-        <a href="https://instagram.com/aprilrieff" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
+        <div class="social">
+            <a href="https://twitter.com/aprilrieff" target="_blank"><i class="fa fa-brands fa-twitter"></i></a>
+            <a href="https://linkedin.com/aprilrieff" target="_blank"><i class="fa fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/aprilrieff" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
+        </div>
     </div>
 </footer>
 <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"

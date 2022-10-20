@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d45e09-b684-4dc6-8ff8-a67c97fefb6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/resProject/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/resProject/js/leaflet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/resProject/_media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/resProject/resMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/resProject/resMain.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/resProject/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/resProject/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resProject/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/resProject/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/resProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/resProject/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/resProject/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/resProject/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/_item_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_item_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resProject/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/resProject/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/_media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/resProject/resMain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resProject/resMain.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +100,9 @@
       <workItem from="1665084497892" duration="7152000" />
       <workItem from="1665516789095" duration="6797000" />
       <workItem from="1666120060044" duration="17000" />
-      <workItem from="1666122322969" duration="5739000" />
+      <workItem from="1666122322969" duration="5930000" />
+      <workItem from="1666230719628" duration="611000" />
+      <workItem from="1666294390667" duration="3427000" />
     </task>
     <servers />
   </component>

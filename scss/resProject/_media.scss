@@ -2,17 +2,26 @@
 @media(max-width: 820px) {
   #header {
     &-home {
-      height: 30rem;
+      height: 30rem !important;
     }
 
     &-content {
       padding-top: 3rem;
     }
   }
+
+  .footer {
+    &-content {
+      padding: 2rem;
+    }
+  }
+  .about-d .testimonials{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Cellphone Styles */
-@media(max-width: 400px) {
+@media(max-width: 430px) {
   #main-nav {
     flex-direction: column;
     align-items: center;
@@ -30,42 +39,113 @@
     }
 
     &-content {
+      padding-top: .5rem !important;
+
       h1 {
-        font-size: 2.5rem;
+        font-size: 2.5rem !important;
         line-height: 1.1;
       }
     }
   }
+  #home {
+    &-a .specializations div {
+      border-bottom: 2px solid $medium-color;
+      padding-bottom: 1rem;
+
+      &:first-child {
+        border-top: 2px solid $medium-color;
+        padding-top: 1rem;
+      }
+    }
+
+    &-b {
+      .stats
+      li {
+        line-height: 1.5 !important;
+      }
+
+      div {
+        padding: 2rem 0 1rem 0 !important;
+      }
+    }
+  }
+
   #home-a .specializations,
   #home-b .stats,
   #home-c .process,
-  .home-d .testimonials,
+  .about-d .testimonials,
   #contact-b .contact-info,
-  .portfolio-items{
+  .portfolio-items {
     grid-template-columns: 1fr !important;
   }
 
-  #home-a .specializations div{
-    border-bottom: 2px solid $medium-color;
-    padding-bottom: 1rem;
-    &:first-child{
-      border-top: 2px solid $medium-color;
-      padding-top: 1rem;
-    }
-  }
-
-  .about-logos{
+  .about-logos {
     flex-direction: column;
-    img{
+
+    img {
       width: 60%;
       padding: 1rem 0;
-      align-items: center; /*not center*/
+      align-items: center;
     }
   }
 
-  .portfolio-items{ /*not stacked*/
+  .portfolio-items {
     grid-gap: 1rem;
   }
+
+  .footer {
+    &-content {
+      flex-direction: column;
+      text-align: center;
+
+      .social {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .about {
+    &-info {
+      grid-template-areas:
+      "image"
+      "bio"
+      "about1"
+      "about2"
+      "about3" !important;
+
+      .bio {
+        border-left: none !important;
+        border-top: 5px solid $medium-color;
+      }
+    }
+  }
+
+  #contact {
+    &-a {
+      .text-fields {
+        grid-template-areas:
+        'name'
+        'email'
+        'subject'
+        'phone'
+        'message' !important;
+      }
+    }
+    &-b{
+      padding-bottom: 1.75rem;
+      .contact-info div{
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid $medium-color;
+
+        &:first-child{
+          border-top: 2px solid $medium-color;
+          padding-top: 1rem;
+        }
+      }
+    }
+  }
 }
+
 
 
