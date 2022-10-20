@@ -37,7 +37,7 @@ h2, h3, h4 {
   &-home {
     height: 70vh;
     color: $dark-color;
-    background: url(../../resProject/img/banner.jpg) no-repeat center bottom / cover;
+    background: url(../img/banner.jpg) no-repeat center bottom / cover;
   }
 
   &-content {
@@ -338,6 +338,12 @@ h2, h3, h4 {
         }
       }
     }
+  }
+}
+
+#about-b{
+  .container h4{
+    color: $light-color;
   }
 }
 
