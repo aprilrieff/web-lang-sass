@@ -208,12 +208,20 @@
     .footer-content .social {
       margin-top: 1rem; }
   .about-info {
-    grid-template-areas: "image" "bio" "about1" "about2" "about3" !important; }
+    grid-template-areas: "image"
+ "bio"
+ "about1"
+ "about2"
+ "about3" !important; }
     .about-info .bio {
       border-left: none !important;
       border-top: 5px solid #aa3eff; }
   #contact-a .text-fields {
-    grid-template-areas: 'name' 'email' 'subject' 'phone' 'message' !important; }
+    grid-template-areas: 'name'
+ 'email'
+ 'subject'
+ 'phone'
+ 'message' !important; }
   #contact-b {
     padding-bottom: 1.75rem; }
     #contact-b .contact-info div {
@@ -250,7 +258,7 @@ h2, h3, h4 {
 #header-home {
   height: 70vh;
   color: #222222;
-  background: url(../../resProject/img/banner.jpg) no-repeat center bottom/cover; }
+  background: url(dist/resProject/img/banner.jpg) no-repeat center bottom/cover; }
 
 #header-content {
   text-align: center;
@@ -414,7 +422,8 @@ h2, h3, h4 {
 .about-info {
   margin-top: 2rem;
   display: grid;
-  grid-template-areas: "image bio bio" "about1 about2 about3";
+  grid-template-areas: "image bio bio"
+ "about1 about2 about3";
   grid-gap: 1rem; }
   .about-info .bio-image {
     grid-area: image;
@@ -462,7 +471,9 @@ h2, h3, h4 {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-template-areas: 'name email'
+ 'subject phone'
+ 'message message';
   grid-gap: 1rem;
   margin-bottom: 1.5rem; }
   #contact-a .text-fields .name-input {
