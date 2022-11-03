@@ -109,9 +109,11 @@ h2, h3, h4 {
   border-radius: 15px;
   margin-bottom: 0.5rem;
   overflow: hidden;
-    .div {
+  div {
   height: 20px;
-  background-color: $medium-color; }}
+  background-color: $medium-color;}
+  border-radius: 15px;
+  }
 
 .btn {
   @extend %btn-shared;

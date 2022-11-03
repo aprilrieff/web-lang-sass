@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d45e09-b684-4dc6-8ff8-a67c97fefb6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/button-animation/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/button-animation/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/button-animation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/countdown/countdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/countdown/countdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/countdown/countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/scroll-animation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/scroll-animation/scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/scroll-animation/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/resProject/resMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/resMain.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/resMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/resMain.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/resMain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resMain.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +29,8 @@
       <list>
         <option value="package.json" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,30 +48,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/april/WebLang/Project",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/april/WebLang/Project&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\april\WebLang\Project\dist\scroll-animation" />
+      <recent name="C:\Users\april\WebLang\Project\dist\countdown" />
       <recent name="C:\Users\april\WebLang\Project\dist\css" />
       <recent name="C:\Users\april\WebLang\Project\dist\resProject" />
       <recent name="C:\Users\april\WebLang\Project\dist\assets" />
-      <recent name="C:\Users\april\WebLang\Project\scss\resProject" />
-      <recent name="C:\Users\april\WebLang\Project\dist\resProject\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -106,6 +111,15 @@
       <workItem from="1666122322969" duration="5930000" />
       <workItem from="1666230719628" duration="611000" />
       <workItem from="1666294390667" duration="6892000" />
+      <workItem from="1666301637023" duration="247000" />
+      <workItem from="1666574776596" duration="337000" />
+      <workItem from="1666632011348" duration="30000" />
+      <workItem from="1666726208922" duration="1395000" />
+      <workItem from="1666728914286" duration="4488000" />
+      <workItem from="1666899147573" duration="6099000" />
+      <workItem from="1667227863811" duration="7000" />
+      <workItem from="1667331487615" duration="6297000" />
+      <workItem from="1667503631641" duration="6008000" />
     </task>
     <servers />
   </component>

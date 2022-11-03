@@ -302,8 +302,9 @@ h2, h3, h4 {
   background-color: #ededed;
   border-radius: 15px;
   margin-bottom: 0.5rem;
-  overflow: hidden; }
-  .progress .div {
+  overflow: hidden;
+  border-radius: 15px; }
+  .progress div {
     height: 20px;
     background-color: #aa3eff; }
 
