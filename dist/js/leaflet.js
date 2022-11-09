@@ -1,8 +1,13 @@
 var map = L.map('map').setView([41.90960431798947, -91.6506644363861], 17);
 
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+
 var greenIcon = L.icon({
     iconUrl: 'img/leaf-green.png',
-    shadowUrl: 'leaf-shadow.png',
+    shadowUrl: 'img/leaf-shadow.png',
 
     iconSize:     [38, 95], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
@@ -11,7 +16,7 @@ var greenIcon = L.icon({
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 
-L.marker([41.90960431798947, -91.6506644363861], {icon: myIcon}).addTo(map);
+var marker = L.marker([41.90960431798947, -91.6506644363861], {icon: myIcon}).addTo(map);
 
 var circle = L.circle([41.91079563884594, -91.65118096766734], {
     color: 'red',
@@ -26,13 +31,12 @@ var polygon = L.polygon([
     [41.909798, -91.648893],
     [41.909807, -91.650066]
 
-]).addTo(map);
-
-// marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
-// circle.bindPopup("I am a circle.");
-// polygon.bindPopup("I am a polygon.");
-
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+],{
+    color: '#ededed',
+    fillColor: '#008f2b',
+    fillOpacity: 0.5
 }).addTo(map);
+
+marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+circle.bindPopup("I am a circle.");
+polygon.bindPopup("I am a polygon.");

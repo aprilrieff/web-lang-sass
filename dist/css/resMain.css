@@ -195,7 +195,8 @@
   .portfolio-items {
     grid-template-columns: 1fr !important; }
   .about-logos {
-    flex-direction: column; }
+    flex-direction: column;
+    text-align: center; }
     .about-logos img {
       width: 60%;
       padding: 1rem 0;
@@ -373,6 +374,8 @@ h2, h3, h4 {
   transition: background-color .5s; }
   #home-c-icon:hover {
     background-color: #aa3eff; }
+    #home-c-icon:hover .process-step {
+      background-color: #ededed; }
 
 #home-c-step {
   position: absolute;
@@ -499,3 +502,7 @@ h2, h3, h4 {
     color: #ededed; }
     #contact-b .contact-info a:hover {
       color: #aa3eff; }
+
+#shopify {
+  width: 160px;
+  height: 100px; }

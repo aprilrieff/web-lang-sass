@@ -218,6 +218,10 @@ h2, h3, h4 {
 
       &:hover {
         background-color: $medium-color;
+
+        .process-step {
+          background-color: $light-color;
+        }
       }
     }
 
@@ -412,4 +416,8 @@ h2, h3, h4 {
   }
 }
 
+#shopify{
+  width: 160px;
+  height: 100px;
+}
 

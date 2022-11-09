@@ -4,19 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28d45e09-b684-4dc6-8ff8-a67c97fefb6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/button-animation/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/button-animation/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/button-animation/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/countdown/countdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/countdown/countdown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/countdown/countdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/scroll-animation/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/scroll-animation/scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/scroll-animation/styles.css" afterDir="false" />
+    <list default="true" id="28d45e09-b684-4dc6-8ff8-a67c97fefb6d" name="Changes" comment="Canvas Game Assignment">
+      <change afterPath="$PROJECT_DIR$/dist/advice/advice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/charts/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/charts/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/charts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/jokes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/jokes/jokes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/jokes/jokes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/countdown/countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/countdown/countdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/countdown/countdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/countdown/countdown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/countdown/countdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/countdown/countdown.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/resMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/resMain.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/items/item1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/items/item1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/items/item2.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/items/item2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/items/item3.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/items/item3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/items/item4.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/items/item4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/leaflet.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/leaflet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/resMain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resMain.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,11 +75,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\april\WebLang\Project\dist\advice" />
+      <recent name="C:\Users\april\WebLang\Project\dist\img\about-logos" />
       <recent name="C:\Users\april\WebLang\Project\dist\scroll-animation" />
       <recent name="C:\Users\april\WebLang\Project\dist\countdown" />
       <recent name="C:\Users\april\WebLang\Project\dist\css" />
-      <recent name="C:\Users\april\WebLang\Project\dist\resProject" />
-      <recent name="C:\Users\april\WebLang\Project\dist\assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -119,8 +127,21 @@
       <workItem from="1666899147573" duration="6099000" />
       <workItem from="1667227863811" duration="7000" />
       <workItem from="1667331487615" duration="6297000" />
-      <workItem from="1667503631641" duration="6008000" />
+      <workItem from="1667503631641" duration="7401000" />
+      <workItem from="1667782952545" duration="555000" />
+      <workItem from="1667784139282" duration="2017000" />
+      <workItem from="1667938113352" duration="864000" />
+      <workItem from="1667939612557" duration="6894000" />
+      <workItem from="1668020901301" duration="2368000" />
     </task>
+    <task id="LOCAL-00001" summary="Canvas Game Assignment">
+      <created>1667940017639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667940017639</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,5 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Canvas Game Assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Canvas Game Assignment" />
   </component>
 </project>
