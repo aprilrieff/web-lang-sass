@@ -17,6 +17,15 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+.advice-container {
+    background-color: #323a49;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column
+}
+
 .container {
     background-color: #323a49;
     width: 300px;
@@ -57,7 +66,7 @@ h2{
     margin-top: 1rem;
 }
 
-#dice{
+#diceBtn{
     width: 14px;
     height: 14px;
 }

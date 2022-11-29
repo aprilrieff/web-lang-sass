@@ -25,11 +25,11 @@ h2, h3, h4 {
   text-transform: capitalize;
 }
 
-.section-title{
+.section-title {
   font-size: 2.5rem;
 }
 
-#logo{
+#logo {
   height: 70px;
 }
 
@@ -56,11 +56,11 @@ h2, h3, h4 {
     }
   }
 
-  &-inner{
+  &-inner {
     height: 6rem;
     color: $light-color;
-    background: rgb(2,0,36);
-    background: linear-gradient(63deg, rgba(2,0,36,1) 0%, rgba(213,0,255,1) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(63deg, rgba(2, 0, 36, 1) 0%, rgba(213, 0, 255, 1) 100%);
   }
 }
 
@@ -109,11 +109,14 @@ h2, h3, h4 {
   border-radius: 15px;
   margin-bottom: 0.5rem;
   overflow: hidden;
+
   div {
-  height: 20px;
-  background-color: $medium-color;}
-  border-radius: 15px;
+    height: 20px;
+    background-color: $medium-color;
   }
+
+  border-radius: 15px;
+}
 
 .btn {
   @extend %btn-shared;
@@ -202,60 +205,61 @@ h2, h3, h4 {
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 1.5rem;
       text-align: center;
-    }
 
-    &-icon {
-      border-radius: 50%;
-      background-color: $dark-color;
-      color: $light-color;
-      padding: 2rem;
-      width: 150px;
-      height: 150px;
-      line-height: 80px;
-      text-align: center;
-      position: relative;
-      transition: background-color .5s;
 
-      &:hover {
-        background-color: $medium-color;
+      &-icon {
+        border-radius: 50%;
+        background-color: $dark-color;
+        color: $light-color;
+        padding: 2rem;
+        width: 150px;
+        height: 150px;
+        line-height: 80px;
+        text-align: center;
+        position: relative;
+        transition: background-color .5s;
 
-        .process-step {
-          background-color: $light-color;
+        &:hover {
+          background-color: $medium-color;
+
+          .process-step {
+            background-color: $light-color;
+          }
         }
       }
-    }
 
 
-    &-step {
-      position: absolute;
-      top: 0;
-      right: 0;
-      font-size: 14px;
-      height: 35px;
-      width: 35px;
-      border-radius: 50%;
-      background-color: $medium-color;
-      color: $light-color;
-      line-height: 5px;
-      text-align: center;
-      padding: 1rem 0;
-      transition: background-color .5s;
+      &-step {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 14px;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background-color: $medium-color;
+        color: $light-color;
+        line-height: 5px;
+        text-align: center;
+        padding: 1rem 0;
+        transition: background-color .5s;
+      }
     }
   }
 }
 
 
-.footer{
+.footer {
   background-color: $dark-color;
   color: $light-color;
 
-  &-content{
+  &-content {
     justify-content: space-between;
     align-items: center;
     display: flex;
   }
 
-  .social .fa-brands{
+  .social .fa-brands {
     color: $light-color;
     margin-left: 1rem;
     border: 1px solid $light-color;
@@ -269,7 +273,7 @@ h2, h3, h4 {
     box-sizing: border-box;
     max-width: 100%;
 
-    &:hover{
+    &:hover {
       background-color: $medium-color;
 
     }
@@ -277,23 +281,24 @@ h2, h3, h4 {
 }
 
 .about {
-  &-a{
+  &-a {
 
   }
-  &-info{
+
+  &-info {
     margin-top: 2rem;
     display: grid;
     grid-template-areas:
       "image bio bio"
-      "about1 about2 about3"
-  ;
+      "about1 about2 about3";
     grid-gap: 1rem;
 
-    .bio-image{
+    .bio-image {
       grid-area: image;
       margin-bottom: 2rem;
     }
-    .bio{
+
+    .bio {
       grid-area: bio;
       border-left: 5px solid $medium-color;
       padding: 2rem;
@@ -302,40 +307,46 @@ h2, h3, h4 {
       color: $dark-color;
     }
   }
+
   &-1 {
     grid-area: about1;
   }
+
   &-2 {
     grid-area: about2;
   }
+
   &-3 {
     grid-area: about3;
   }
 
-  &-logos{
+  &-logos {
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
 
   &-d {
-    .testimonials{
+    .testimonials {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 0.5rem;
       margin-top: 1.5rem;
 
-      .testimonial{
-        ul{
+      .testimonial {
+        ul {
           list-style: none;
           margin: 1rem 0;
           display: flex;
           justify-content: center;
         }
-        p{
+
+        p {
           border: 1px solid $medium-color;
           border-radius: 10px;
           padding: 1rem;
         }
+
         img {
           width: 50px;
           height: 50px;
@@ -347,43 +358,46 @@ h2, h3, h4 {
   }
 }
 
-#about-b{
-  .container h4{
+#about-b {
+  .container h4 {
     color: $light-color;
   }
 }
 
-#contact{
-  &-a{
-    .text-fields{
+#contact {
+  &-a {
+    .text-fields {
       display: grid;
       grid-template-areas:
       'name email'
       'subject phone'
-      'message message'
-      ;
+      'message message';
       grid-gap: 1rem;
       margin-bottom: 1.5rem;
 
-      .name-input{
+      .name-input {
         grid-area: name;
       }
-      .email-input{
+
+      .email-input {
         grid-area: email;
       }
-      .subject-input{
+
+      .subject-input {
         grid-area: subject;
       }
-      .phone-input{
+
+      .phone-input {
         grid-area: phone;
       }
-      .message-input{
+
+      .message-input {
         grid-area: message;
         width: 100%;
         height: 100px;
       }
 
-      .text-input{
+      .text-input {
         padding: 0.5rem 1rem;
         font-family: dosis, sans-serif;
         font-size: 1rem;
@@ -391,24 +405,25 @@ h2, h3, h4 {
         max-width: 100%;
       }
 
-      button[type='submit']{
+      button[type='submit'] {
         width: 200px;
         @extend %btn-shared;
       }
     }
   }
-  &-b{
-    .contact-info{
+
+  &-b {
+    .contact-info {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       text-align: center;
       color: white;
 
-      a{
+      a {
         color: $light-color;
         //text-decoration: underline;
 
-        &:hover{
+        &:hover {
           color: $medium-color;
         }
       }
@@ -416,7 +431,7 @@ h2, h3, h4 {
   }
 }
 
-#shopify{
+#shopify {
   width: 160px;
   height: 100px;
 }
