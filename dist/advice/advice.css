@@ -63,13 +63,14 @@ h2{
     height: 35px;
     border-radius: 50%;
     z-index: 1;
-    margin-top: 1rem;
+    margin-top: -1rem;
 }
 
 #diceBtn{
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
 }
+
 
 .attribution {
     font-size: 11px;
@@ -79,4 +80,8 @@ h2{
 
 .attribution a{
     color: #3e52a3;
+}
+
+#dice{
+    height: 14px;
 }

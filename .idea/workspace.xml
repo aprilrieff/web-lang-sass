@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d45e09-b684-4dc6-8ff8-a67c97fefb6d" name="Changes" comment="Canvas Game Assignment">
-      <change afterPath="$PROJECT_DIR$/dist/advice/advice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pokemon/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pokemon/poke.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/pokemon/poke.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/advice/advice.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/advice/advice.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/advice/advice.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/advice/advice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/advice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/advice/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/resMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/resMain.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/jokes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/jokes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/jokes/jokes.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/jokes/jokes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/leaflet.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/leaflet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resMain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/resMain.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +123,9 @@
       <workItem from="1668959516206" duration="2428000" />
       <workItem from="1669056908398" duration="1564000" />
       <workItem from="1669498439305" duration="1777000" />
-      <workItem from="1669753257585" duration="1097000" />
+      <workItem from="1669753257585" duration="1660000" />
+      <workItem from="1669756103413" duration="20000" />
+      <workItem from="1669759790017" duration="1882000" />
     </task>
     <task id="LOCAL-00001" summary="Canvas Game Assignment">
       <created>1667940017639</created>
