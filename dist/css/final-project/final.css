@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%; }
+
+body {
+  font-size: 13px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: lightgray; }
+
+.container {
+  width: 1200px;
+  min-height: 200px;
+  margin: 0 auto; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
+
+h2 {
+  font-size: 20px; }
+
+.testimonial {
+  margin: 20px;
+  padding: 20px; }
+  .testimonial h2 {
+    color: white;
+    padding: 0 1.25rem 0rem 1.25rem; }
+  .testimonial p {
+    color: #cfcfcf;
+    padding: 1rem; }
+  .testimonial h4 {
+    color: white;
+    font-size: 14px; }
+  .testimonial h5 {
+    color: #cfcfcf;
+    font-size: 12px; }
+  .testimonial-info {
+    display: flex; }
+    .testimonial-info-image img {
+      border-radius: 50%;
+      margin: 1rem;
+      border: 3px solid #7541c8;
+      width: 40px; }
+    .testimonial-info-name {
+      margin-top: 1.2rem;
+      line-height: 1.25; }
+  .testimonial-a {
+    border-radius: 10px;
+    background: #7541c8 url(../../finalProject/images/bg-pattern-quotation.svg) no-repeat 80% 0%; }
+  .testimonial-b {
+    background-color: #48556a;
+    border-radius: 10px; }
+  .testimonial-c {
+    background-color: white;
+    border-radius: 10px; }
+    .testimonial-c h2 {
+      color: #3c3c3c; }
+    .testimonial-c h4 {
+      color: #3c3c3c; }
+    .testimonial-c p {
+      color: gray; }
+    .testimonial-c h5 {
+      color: #cfcfcf; }
+  .testimonial-d {
+    background-color: #19212e;
+    border-radius: 10px; }
+  .testimonial-e {
+    background-color: white;
+    border-radius: 10px; }
+    .testimonial-e h2 {
+      color: #3c3c3c; }
+    .testimonial-e h4 {
+      color: #3c3c3c; }
+    .testimonial-e p {
+      color: gray; }
+    .testimonial-e h5 {
+      color: #cfcfcf; }
+
+@media screen and (min-width: 500px) {
+  .testimonials {
+    display: grid;
+    grid-template-areas: 'testimonial-a testimonial-a testimonial-b testimonial-e' 'testimonial-c testimonial-d testimonial-d testimonial-e';
+    grid-gap: 20px; }
+  .testimonial {
+    padding: .25rem;
+    margin: .25rem auto; }
+    .testimonial-a {
+      grid-area: testimonial-a; }
+    .testimonial-b {
+      grid-area: testimonial-b; }
+    .testimonial-c {
+      grid-area: testimonial-c; }
+    .testimonial-d {
+      grid-area: testimonial-d; }
+    .testimonial-e {
+      grid-area: testimonial-e; } }

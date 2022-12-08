@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  font-size: 13px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: lightgray;
+}
+
+.container {
+  width: 1200px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h2 {
+  font-size: 20px;
+
+}
+
+.testimonial {
+  margin: 20px;
+  padding: 20px;
+
+  h2 {
+    color: white;
+    padding: 0 1.25rem 0rem 1.25rem;
+    //padding: .5rem 1rem .5rem 1rem ;
+  }
+
+  p {
+    color: #cfcfcf;
+    padding: 1rem;
+  }
+
+  h4 {
+    color: white;
+    font-size: 14px;
+  }
+
+  h5 {
+    color: #cfcfcf;
+    font-size: 12px;
+  }
+
+  &-info {
+    display: flex;
+
+    &-image img {
+      border-radius: 50%;
+      margin: 1rem;
+      border: 3px solid #7541c8;
+      width: 40px;
+    }
+
+    &-name {
+      margin-top: 1.2rem;
+      line-height: 1.25;
+    }
+  }
+
+
+  &-a {
+    border-radius: 10px;
+    background: hsl(263, 55%, 52%) url(../../finalProject/images/bg-pattern-quotation.svg) no-repeat 80% 0%;
+  }
+
+  &-b {
+    background-color: #48556a;
+    border-radius: 10px;
+  }
+
+  &-c {
+    background-color: white;
+    border-radius: 10px;
+
+    h2 {
+      color: #3c3c3c;
+    }
+
+    h4 {
+      color: #3c3c3c;
+    }
+
+    p {
+    color: hsl(0, 0%, 50%);
+    }
+
+    h5 {
+      color: hsl(0, 0%, 81%)
+    }
+  }
+
+  &-d {
+    background-color: #19212e;
+    border-radius: 10px;
+  }
+
+  &-e {
+    background-color: white;
+    border-radius: 10px;
+
+    h2 {
+    color: #3c3c3c;
+    }
+
+    h4 {
+    color: #3c3c3c;
+    }
+
+    p {
+    color: hsl(0, 0%, 50%);
+    }
+
+    h5{
+      color: hsl(0, 0%, 81%);
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .testimonials {
+    display: grid;
+    grid-template-areas:
+    'testimonial-a testimonial-a testimonial-b testimonial-e'
+    'testimonial-c testimonial-d testimonial-d testimonial-e';
+    grid-gap: 20px;
+  }
+  .testimonial {
+    padding: .25rem;
+    margin: .25rem auto;
+
+    h2 {
+    }
+
+    &-a {
+      grid-area: testimonial-a;
+    }
+
+    &-b {
+      grid-area: testimonial-b;
+    }
+
+    &-c {
+      grid-area: testimonial-c;
+    }
+
+    &-d {
+      grid-area: testimonial-d;
+    }
+
+    &-e {
+      grid-area: testimonial-e;
+    }
+  }
+}

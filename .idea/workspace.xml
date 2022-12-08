@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d45e09-b684-4dc6-8ff8-a67c97fefb6d" name="Changes" comment="Canvas Game Assignment">
-      <change afterPath="$PROJECT_DIR$/dist/mobile-navigation/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/mobile-navigation/mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/mobile-navigation/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/final-project/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/finalProject/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/finalProject/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/testimonials-grid-section-main.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/final-project/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,6 +131,9 @@
       <workItem from="1669926184459" duration="485000" />
       <workItem from="1670209819100" duration="6939000" />
       <workItem from="1670299869466" duration="1176000" />
+      <workItem from="1670359065380" duration="6446000" />
+      <workItem from="1670517562967" duration="622000" />
+      <workItem from="1670518482912" duration="8028000" />
     </task>
     <task id="LOCAL-00001" summary="Canvas Game Assignment">
       <created>1667940017639</created>
